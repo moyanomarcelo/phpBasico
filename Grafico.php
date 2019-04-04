@@ -21,7 +21,7 @@
 				while ($columna = mysqli_fetch_array( $resultado ))
 				{
 					$decodificado = base64_decode($columna['descrip']);
-					echo $decodificado
+					echo $decodificado;
 				}
 				mysqli_close( $conexion );
 			?>
