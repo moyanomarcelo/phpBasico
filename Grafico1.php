@@ -11,7 +11,7 @@
           ['Label', 'Value'],
 			<?php
 			$decodificado = base64_decode($_GET["token"]);
-			echo $decodificado
+			echo $decodificado;
 			?>
         ]);
 
