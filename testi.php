@@ -15,6 +15,7 @@
 	$consulta = base64_decode($_GET["token"]);
 	$resultado = mysqli_query( $conexion, $consulta ) or die ( "Algo ha ido mal en la consulta a la base de datos");
 
+	echo 'ok';
 	// cerrar conexión de base de datos
 	mysqli_close( $conexion );
 ?>
